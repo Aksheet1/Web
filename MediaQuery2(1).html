@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+                   <meta charset="UTF-8">
+                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                   <title>Document</title>
+</head>
+
+<body>
+                   <header>
+                                      <h1>My Website</h1>
+                   </header>
+
+                   <div>
+                                      <div class="container">
+                                                         <div class="box">Box1</div>
+                                                         <div class="box">Box2</div>
+                                                         <div class="box">Box3</div>
+                                                         <div class="box">Box4</div>
+                                                         <div class="box">Box5</div>
+                                                         <div class="box">Box6</div>
+
+                                      </div>
+
+                                      <style>
+                                                         body {
+                                                                            margin: 0;
+                                                         }
+
+                                                         header {
+                                                                            background-color: black;
+                                                                            color: aliceblue;
+                                                                            padding: 15px;
+                                                         }
+
+                                                         .container {
+                                                                            text-align: center;
+                                                                            background-color: plum;
+                                                                            height: 650px;
+                                                                            width: auto;
+                                                         }
+
+                                                         .box {
+                                                                            background-color: azure;
+                                                                            margin: 10px;
+                                                                            height: 15%;
+                                                                            width: 25px;
+                                                                            display: inline-block;
+                                                         }
+
+                                                         /* Media Queries */
+                                                         /* Small Screen */
+
+                                                         @media screen and (max-width: 500px) {
+                                                                            .box {
+                                                                                               margin: 1em 2em;
+                                                                                               width: 35%;
+                                                                            }
+                                                         }
+
+                                                         /* Medium Screen */
+
+                                                         @media screen and (min-width: 501px) and (max-width: 999px) {
+                                                                            .box {
+                                                                                               margin: 1em 2em;
+                                                                                               width: 45%;
+                                                                            }
+                                                         }
+
+                                                         /* Large Screen */
+
+                                                         @media screen and (min-width: 1000px) {
+                                                                            .box {
+                                                                                               margin: 1em 2em;
+                                                                                               width: 40%;
+                                                                            }
+                                                         }
+                                      </style>
+
+</body>
+
+</html>
